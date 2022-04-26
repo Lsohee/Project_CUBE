@@ -1,10 +1,16 @@
+주의 해야할것
+[] 같은 페이지에 같은 기능의 다른 요소를 넣지 않을 것
+[] 직관적이고 간단하게 (일단 다 넣고 최대한 덜어내기)
+[] 홈으로 돌아가거나 뒤로 돌아갈 수 있는 버튼 넣기
+
 만들 페이지 목록
    
 main_page
+  1. 큐브의 특색(독특한 개성의 아티스트들이 모여있음 각자의 개성이 셈)을 표현할 수 있는 디자인
+  2. 
+multimedia_page 애는 꼭 필요한 페이지 일까를 고민해볼것
 
-multimedia_page
-
-artist_page
+artist_page 
 
 contact_page(메일 정보)
 
@@ -12,4 +18,4 @@ audition_page(오디션 페이지)
 
 imformation_page(공시정보)
 
-ucube_page(팬사이트)
+ucube_page(팬사이트) 이거는 따로 만들기 (아예 다른 앱이 됨)
