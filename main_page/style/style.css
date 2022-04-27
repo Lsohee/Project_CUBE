@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#container > div:nth-child(1) {
+  position: absolute;
+  top: 0;
+  width: inherit;
+  height: 10%;
+  border: 1px solid black;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+#container > div:nth-child(1) > div {
+  width: 10%;
+  margin: 1%;
+  height: 90%;
+  background-color: #ffffff;
+}
+
+#root {
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 45vw;
+  height: 45vw;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 66% 33%;
+  justify-content: space-between;
+}
+#root div {
+  border: 1px solid black;
+}
+#root > div:nth-child(1) {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#root > div:nth-child(1) > div:nth-child(1) {
+  width: 100%;
+  height: 16%;
+}
+#root > div:nth-child(1) > div:nth-child(2) {
+  width: 100%;
+  height: 48%;
+}
+#root > div:nth-child(1) > div:nth-child(3) {
+  width: 100%;
+  height: 33%;
+}
+#root > div:nth-child(2) {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#root > div:nth-child(2) > div:nth-child(1) {
+  width: 100%;
+  height: 33%;
+}
+#root > div:nth-child(2) > div:nth-child(2) {
+  width: 100%;
+  height: 47%;
+}
+#root > div:nth-child(2) > div:nth-child(3) {
+  width: 100%;
+  height: 16%;
+}/*# sourceMappingURL=style.css.map */
