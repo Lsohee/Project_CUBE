@@ -17,17 +17,20 @@
     display: flex;
     align-items: center;
     &>div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width:10%;
       margin:1%;
       height:90%;
-      background-color: #ccc;
+      // background-color: #ccc;
     }
   }
 }
 
 #root {
   background-color: #ffffff;
-  border:1px solid black;
+  // border:1px solid black;
   width:45vw;
   height:45vw;
   z-index: 2;
@@ -37,7 +40,7 @@
   // grid-template-columns: 100%;
 
   & div{
-    // border:1px solid black;
+    // border:1px solid #8c8c8c;
   }
   
   
@@ -52,7 +55,8 @@
     
     // header
     &>div:nth-child(1){
-      // border:1px solid black;
+    border:1px solid #8c8c8c;
+    // border:1px solid black;
       // background-color: #c4c4c4;
 
       width:100%;
@@ -68,6 +72,7 @@
       
       &>div:nth-child(1){
         height:100%;
+        border:1px solid #8c8c8c;
         width: 27%;
       }
       &>div:nth-child(2){
@@ -86,42 +91,93 @@
       justify-content: space-between;
   
       &>div:nth-child(1){
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height:100%;
         width: 49%;
+        border:1px solid #8c8c8c;
+        background-color: #ffffff;
+
       }
       &>div:nth-child(2){
+        border:1px solid #8c8c8c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height:100%;
         width: 49%;
+
       }
       
     }
 
     
   }
-
+// right
   &>div:nth-child(2){
     // width:20%;
     // height:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+// 큐브 오디션 로고
     &>div:nth-child(1){
       width:100%;
       height:33%;
-    }
+      background-color: #EEF8FC;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
 
+    }
+// 공시 정보 란
     &>div:nth-child(2){
+      border:1px solid #8c8c8c;
       width:100%;
       height:47%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &>div:nth-child(1){
+        width:90%;
+        height:16%;
+        &>div{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 2em;
+          line-height: 1em;
+          margin:1rem;
+        }
+      }
+
+      &>div:nth-child(2){
+        width:100%;
+        height:31%;
+        
+      } 
+      &>div:nth-child(3){
+        width:100%;
+        height:21%;
+      }
+      &>div:nth-child(4){
+        width:100%;
+        height:21%;
+      }
+
     }
 
     &>div:nth-child(3){
+      border:1px solid #8c8c8c;
       width:100%;
       height:16%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
-
-
 
 }
