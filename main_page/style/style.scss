@@ -73,7 +73,21 @@
       &>div:nth-child(1){
         height:100%;
         border:1px solid #8c8c8c;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
         width: 27%;
+        & div{
+          font-size: 25px;
+          margin-left: 10px;
+          color: #8c8c8c;
+        }
+        & >div:nth-child(1){
+          font-size: 30px;
+          color: #8c8c8c;
+          
+        }
       }
       &>div:nth-child(2){
         background-color: #c4c4c4;
